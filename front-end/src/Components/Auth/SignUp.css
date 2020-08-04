@@ -1,0 +1,35 @@
+.form-container {
+    display: grid;
+    grid-template-columns: [first] 40% [center1] auto [center2] 40% [end];
+    grid-template-rows: [row1-start] 20% [row1-end] auto [main] 10% [last-line];
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:.8;}
+}
+
+
+.form {
+    grid-area: row1-end /  center1 / main / center2;
+    align-self: auto;
+    place-content: center;
+    place-self: stretch;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.form-group {
+    width: 200px;
+    align-content: center;
+    margin: auto;
+}
+
+label {
+    margin: auto;
+    display: block;
+    width: auto;
+    align-content: center;
+}

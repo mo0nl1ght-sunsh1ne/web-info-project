@@ -1,0 +1,39 @@
+.container {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.links{
+    font-size: 30px;
+}
+
+a{
+    color: black;
+}
+
+.return{
+    color: #000951;
+}
+
+.fountain-title{
+    color: #2196f3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity: 0.5;}
+    100% {opacity:1;}
+}

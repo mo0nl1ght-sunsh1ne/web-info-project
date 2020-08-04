@@ -1,0 +1,27 @@
+.form-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../../Assets/man-drinking-water-from-drinking-fountain-1362909.jpg");
+    opacity: 0.85;
+    color: wheat;
+
+}
+.loginH{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    font-size: 18px;
+    width: 400px;
+}
+b{
+    color: white;
+}

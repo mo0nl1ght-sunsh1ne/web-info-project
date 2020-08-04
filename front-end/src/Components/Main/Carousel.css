@@ -1,0 +1,54 @@
+.main {
+    animation: fadeIn 2s;
+}
+
+.container-fluid{
+    margin-top: 100px;
+    animation: fadeIn 2s;
+
+}
+
+
+.information{
+    font-size: 20px;
+}
+
+.table-border{
+    width: 570px;
+    float: left;
+
+  }
+
+  .information{
+    border: 1px solid;
+}
+
+.details{
+    float: right;
+    width: 600px;
+    height: 530px;
+    border: 1px solid;
+
+}
+
+.return{
+    float: right;
+    padding-top: 10px;
+    color: royalblue;
+}
+
+th{
+    text-align: center;
+    font-size: 40px;
+}
+div.fountain-title{
+    color: #2196f3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity: 0.5;}
+    100% {opacity:1;}
+}

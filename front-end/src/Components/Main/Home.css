@@ -1,0 +1,74 @@
+.Hydrohomies{
+    font-size: 40px;
+    padding: 20px;
+    color: #2196f3;
+    display: flex;
+    justify-content: space-between;
+    background-color: white ;
+    border: 1px solid #09F;
+   {/*background-image: url("./Links/headercropped.jpg");*/}
+}
+
+.smallheader{
+    font-size: 30px;
+}
+
+.wave {
+    position: relative;
+    background: #09F;
+    color: #FFF;
+    text-align: left;
+    overflow: hidden;
+    background-image: url("./Links/headercropped.jpg");
+
+}
+
+.tagline{
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.tagline:hover{
+    font-size: 60px;
+    transition-duration: 0.5s;
+}
+
+.form-wrapper {
+    width: 600px;
+    height:450px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+    color:#2196f3;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    background-image: url("./Links/formbackground.png");
+  }
+
+.formheader{
+    font-size: 40px;
+    margin-top: 30px;
+}
+  
+span{
+    border-bottom: 3px solid #2196f3;
+    font-weight: 500px;
+}
+
+.form1{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.form2{
+    font-size: 20px;
+    padding-top: 30px;
+}
